@@ -1,0 +1,128 @@
+2020-11-20 17:45:00.236  INFO 8576 --- [main] c.s.c.W3CustomerApi1Application          : Starting W3CustomerApi1Application using Java 11.0.9 on soumyaranjan-Pc with PID 8576 (/home/soumyaranjan/soumya/Springboot workspace/w3_Customer-API-1/target/classes started by soumyaranjan in /home/soumyaranjan/soumya/Springboot workspace/w3_Customer-API-1)
+2020-11-20 17:45:00.240  INFO 8576 --- [main] c.s.c.W3CustomerApi1Application          : No active profile set, falling back to default profiles: default
+2020-11-20 17:45:00.979  INFO 8576 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2020-11-20 17:45:01.030  INFO 8576 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 47 ms. Found 1 MongoDB repository interfaces.
+2020-11-20 17:45:01.469  INFO 8576 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-11-20 17:45:01.479  INFO 8576 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-11-20 17:45:01.480  INFO 8576 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.39]
+2020-11-20 17:45:01.536  INFO 8576 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-11-20 17:45:01.537  INFO 8576 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1222 ms
+2020-11-20 17:45:01.593  WARN 8576 --- [main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'customerController': Unsatisfied dependency expressed through field 'serviceRef'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.symentix.customerAPI.service.ICustomerService' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+2020-11-20 17:45:01.596  INFO 8576 --- [main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2020-11-20 17:45:01.613  INFO 8576 --- [main] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2020-11-20 17:45:01.631 ERROR 8576 --- [main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field serviceRef in com.symentix.customerAPI.controller.CustomerController required a bean of type 'com.symentix.customerAPI.service.ICustomerService' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'com.symentix.customerAPI.service.ICustomerService' in your configuration.
+
+2020-11-20 17:50:39.367  INFO 8679 --- [main] c.s.c.W3CustomerApi1Application          : Starting W3CustomerApi1Application using Java 11.0.9 on soumyaranjan-Pc with PID 8679 (/home/soumyaranjan/soumya/Springboot workspace/w3_Customer-API-1/target/classes started by soumyaranjan in /home/soumyaranjan/soumya/Springboot workspace/w3_Customer-API-1)
+2020-11-20 17:50:39.372  INFO 8679 --- [main] c.s.c.W3CustomerApi1Application          : No active profile set, falling back to default profiles: default
+2020-11-20 17:50:40.053  INFO 8679 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2020-11-20 17:50:40.109  INFO 8679 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 52 ms. Found 1 MongoDB repository interfaces.
+2020-11-20 17:50:40.548  INFO 8679 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-11-20 17:50:40.558  INFO 8679 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-11-20 17:50:40.558  INFO 8679 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.39]
+2020-11-20 17:50:40.620  INFO 8679 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-11-20 17:50:40.620  INFO 8679 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1180 ms
+2020-11-20 17:50:40.676  WARN 8679 --- [main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'customerController': Unsatisfied dependency expressed through field 'serviceRef'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.symentix.customerAPI.service.ICustomerService' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+2020-11-20 17:50:40.679  INFO 8679 --- [main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2020-11-20 17:50:40.700  INFO 8679 --- [main] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2020-11-20 17:50:40.719 ERROR 8679 --- [main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field serviceRef in com.symentix.customerAPI.controller.CustomerController required a bean of type 'com.symentix.customerAPI.service.ICustomerService' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'com.symentix.customerAPI.service.ICustomerService' in your configuration.
+
+2020-11-20 17:54:24.983  INFO 8747 --- [main] c.s.c.W3CustomerApi1Application          : Starting W3CustomerApi1Application using Java 11.0.9 on soumyaranjan-Pc with PID 8747 (/home/soumyaranjan/soumya/Springboot workspace/w3_Customer-API-1/target/classes started by soumyaranjan in /home/soumyaranjan/soumya/Springboot workspace/w3_Customer-API-1)
+2020-11-20 17:54:24.987  INFO 8747 --- [main] c.s.c.W3CustomerApi1Application          : No active profile set, falling back to default profiles: default
+2020-11-20 17:54:25.875  INFO 8747 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2020-11-20 17:54:25.947  INFO 8747 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 67 ms. Found 1 MongoDB repository interfaces.
+2020-11-20 17:54:26.457  INFO 8747 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-11-20 17:54:26.465  INFO 8747 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-11-20 17:54:26.466  INFO 8747 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.39]
+2020-11-20 17:54:26.523  INFO 8747 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-11-20 17:54:26.524  INFO 8747 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1476 ms
+2020-11-20 17:54:26.585  WARN 8747 --- [main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'customerController': Unsatisfied dependency expressed through field 'serviceRef'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.symentix.customerAPI.service.ICustomerService' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+2020-11-20 17:54:26.588  INFO 8747 --- [main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2020-11-20 17:54:26.605  INFO 8747 --- [main] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2020-11-20 17:54:26.628 ERROR 8747 --- [main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field serviceRef in com.symentix.customerAPI.controller.CustomerController required a bean of type 'com.symentix.customerAPI.service.ICustomerService' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'com.symentix.customerAPI.service.ICustomerService' in your configuration.
+
+2020-11-20 17:56:54.514  INFO 8808 --- [main] c.s.c.W3CustomerApi1Application          : Starting W3CustomerApi1Application using Java 11.0.9 on soumyaranjan-Pc with PID 8808 (/home/soumyaranjan/soumya/Springboot workspace/w3_Customer-API-1/target/classes started by soumyaranjan in /home/soumyaranjan/soumya/Springboot workspace/w3_Customer-API-1)
+2020-11-20 17:56:54.517  INFO 8808 --- [main] c.s.c.W3CustomerApi1Application          : No active profile set, falling back to default profiles: default
+2020-11-20 17:56:55.172  INFO 8808 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2020-11-20 17:56:55.223  INFO 8808 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 47 ms. Found 1 MongoDB repository interfaces.
+2020-11-20 17:56:55.693  INFO 8808 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-11-20 17:56:55.703  INFO 8808 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-11-20 17:56:55.704  INFO 8808 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.39]
+2020-11-20 17:56:55.777  INFO 8808 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-11-20 17:56:55.778  INFO 8808 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1188 ms
+2020-11-20 17:56:55.843  WARN 8808 --- [main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'customerController': Unsatisfied dependency expressed through field 'serviceRef'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.symentix.customerAPI.service.ICustomerService' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+2020-11-20 17:56:55.847  INFO 8808 --- [main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2020-11-20 17:56:55.865  INFO 8808 --- [main] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2020-11-20 17:56:55.884 ERROR 8808 --- [main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field serviceRef in com.symentix.customerAPI.controller.CustomerController required a bean of type 'com.symentix.customerAPI.service.ICustomerService' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'com.symentix.customerAPI.service.ICustomerService' in your configuration.
+
